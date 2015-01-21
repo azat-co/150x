@@ -241,8 +241,8 @@
 
 		map = new GMaps({
 			el: '#map',
-			lat: 27.998653,
-			lng: -80.638855,
+			lat: 37.7904127,
+			lng: -122.3920575,
 			zoom: 16,
 			scrollwheel: false,
 			zoomControl : false,
@@ -260,12 +260,12 @@
 		);
 
 		map.addMarker({
-			lat: 27.998653,
-			lng: -80.638855,
+			lat: 37.7904127,
+			lng: -122.3920575,
 			icon: image,
-			title: 'Elegant',
+			title: '150x',
 			infoWindow: {
-				content: '<p><strong>Elegant</strong><br/> We are here</p>'
+				content: '<p><strong>150x</strong><br/> We are here.</p>'
 			}
 		});
 
